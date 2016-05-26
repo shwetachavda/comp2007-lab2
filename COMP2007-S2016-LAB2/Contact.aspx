@@ -35,21 +35,25 @@
                 <div class="form-group">
                     <label class="control-label" for="form-group-input">Last Name</label>
                     <asp:TextBox runat="server" CssClass="form-control" ID="LastNameTextBox" placeholder="Last Name" required="true"></asp:TextBox>
+                    <asp:RequiredFieldValidator CssClass="alert-danger" Display="Dynamic" ID="RequiredFieldValidator2" runat="server" ErrorMessage="This Field is required" ControlToValidate="LastNameTextBox" SetFocusOnError="true"></asp:RequiredFieldValidator> 
                 </div>
                 <div class="form-group">
                     <label class="control-label" for="form-group-input">Email</label>
                     <asp:TextBox runat="server" TextMode="Email" CssClass="form-control" ID="EmailTextBox" placeholder="Email" required="true"></asp:TextBox>
+                    <asp:RequiredFieldValidator CssClass="alert-danger" Display="Dynamic" ID="RequiredFieldValidator3" runat="server" ErrorMessage="This Field is required" ControlToValidate="EmailTextBox" SetFocusOnError="true"></asp:RequiredFieldValidator> 
                 </div>
                 <div class="form-group">
                     <label class="control-label" for="form-group-input">Contact Number</label>
                     <asp:TextBox runat="server" TextMode="Phone" CssClass="form-control" ID="ContactNumberTextBox" placeholder="Contact Number" required="true"></asp:TextBox>
+                    <asp:RequiredFieldValidator CssClass="alert-danger" Display="Dynamic" ID="RequiredFieldValidator4" runat="server" ErrorMessage="This Field is required" ControlToValidate="ContactNumberTextBox" SetFocusOnError="true"></asp:RequiredFieldValidator> 
                 </div>
                 <div class="form-group">
                     <label class="control-label" for="form-group-input">Message</label>
                     <asp:TextBox runat="server" TextMode="MultiLine" CssClass="form-control" ID="MessageTextBox" placeholder="Message" required="true"></asp:TextBox>
+                    <asp:RequiredFieldValidator CssClass="alert-danger" Display="Dynamic" ID="RequiredFieldValidator5" runat="server" ErrorMessage="This Field is required" ControlToValidate="MessageTextBox" SetFocusOnError="true"></asp:RequiredFieldValidator> 
                 </div>
                 <div class="text-right">
-                    <asp:Button runat="server" CssClass="btn btn-warning btn-lg" ID="CancelButton" Text="Cancel" OnClick="CancelButton_Click" />
+                    <a class="btn btn-warning btn-lg" id="CancelButton" href="Default.aspx">Cancel</a>
                     <asp:Button runat="server" CssClass="btn btn-primary btn-lg" ID="SubmitButton" Text="Send" OnClick="SubmitButton_Click" />
                 </div>
             </div>

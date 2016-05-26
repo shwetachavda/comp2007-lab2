@@ -40,6 +40,15 @@ namespace COMP2007_S2016_LAB2 {
         protected global::System.Web.UI.WebControls.TextBox LastNameTextBox;
         
         /// <summary>
+        /// RequiredFieldValidator2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator2;
+        
+        /// <summary>
         /// EmailTextBox control.
         /// </summary>
         /// <remarks>
@@ -47,6 +56,15 @@ namespace COMP2007_S2016_LAB2 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox EmailTextBox;
+        
+        /// <summary>
+        /// RequiredFieldValidator3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator3;
         
         /// <summary>
         /// ContactNumberTextBox control.
@@ -58,6 +76,15 @@ namespace COMP2007_S2016_LAB2 {
         protected global::System.Web.UI.WebControls.TextBox ContactNumberTextBox;
         
         /// <summary>
+        /// RequiredFieldValidator4 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator4;
+        
+        /// <summary>
         /// MessageTextBox control.
         /// </summary>
         /// <remarks>
@@ -67,13 +94,13 @@ namespace COMP2007_S2016_LAB2 {
         protected global::System.Web.UI.WebControls.TextBox MessageTextBox;
         
         /// <summary>
-        /// CancelButton control.
+        /// RequiredFieldValidator5 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button CancelButton;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator5;
         
         /// <summary>
         /// SubmitButton control.
