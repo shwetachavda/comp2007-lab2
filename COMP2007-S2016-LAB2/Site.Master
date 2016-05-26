@@ -1,5 +1,5 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="COMP2007_S2016_LAB2.Site" %>
-
+<%@ Register Src="User_Control/Navbar.ascx" TagName="NavBar" TagPrefix="bs3" %>
 <!DOCTYPE html>
 
 <html lang="en">
@@ -19,6 +19,7 @@
 <body>
     <form id="form1" runat="server">
     <div>
+        <bs3:NavBar runat="server"></bs3:NavBar>
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         
         </asp:ContentPlaceHolder>
