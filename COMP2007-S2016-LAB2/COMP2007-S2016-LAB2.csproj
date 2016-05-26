@@ -73,6 +73,7 @@
     <Content Include="Contact.aspx" />
     <Content Include="Content\app.css" />
     <Content Include="Default.aspx" />
+    <Content Include="User_Control\Jumbotron.ascx" />
     <Content Include="User_Control\Navbar.ascx" />
     <Content Include="packages.config" />
     <Content Include="Scripts\app.js" />
@@ -128,6 +129,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User_Control\Jumbotron.ascx.cs">
+      <DependentUpon>Jumbotron.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User_Control\Jumbotron.ascx.designer.cs">
+      <DependentUpon>Jumbotron.ascx</DependentUpon>
     </Compile>
     <Compile Include="User_Control\Navbar.ascx.cs">
       <DependentUpon>Navbar.ascx</DependentUpon>

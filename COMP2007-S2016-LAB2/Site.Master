@@ -1,5 +1,5 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="COMP2007_S2016_LAB2.Site" %>
-<%@ Register Src="User_Control/Navbar.ascx" TagName="NavBar" TagPrefix="bs3" %>
+<%@ Register Src="~/User_Control/Navbar.ascx" TagName="NavBar" TagPrefix="bs3" %>
 <!DOCTYPE html>
 
 <html lang="en">
